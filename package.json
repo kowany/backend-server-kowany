@@ -4,7 +4,7 @@
   "description": "Servidor backend del curso de Angular avanzado",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Héctor Villaverde",
@@ -13,9 +13,11 @@
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "express-fileupload": "^0.3.0",
     "jsonwebtoken": "^8.1.0",
     "mongoose": "^4.13.9",
-    "mongoose-unique-validator": "^1.0.6"
+    "mongoose-unique-validator": "^1.0.6",
+    "serve-index": "^1.9.1"
   },
   "devDependencies": {
     "nodemon": "^1.14.11"
