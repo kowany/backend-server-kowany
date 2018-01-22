@@ -13,7 +13,6 @@ mongoose.connection.openUri( 'mongodb://localhost:27017/hospitalDB', ( err, res 
     // Escuchar peticiones
     
     app.listen( 3000, ( ) => {
-        //console.log( 'Everything ok');
         console.log( `Express server corriendo en el puerto 3000: ${colorVerde}` , 'online' )
     } );
 });
